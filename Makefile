@@ -5,7 +5,7 @@ build:
 	docker build -t node-hello .
 
 run:
-	docker run -p 43567:8080 -d node-hello
+	docker run -p 43567:8989 -d node-hello
 
 test:
 	curl localhost:43567
